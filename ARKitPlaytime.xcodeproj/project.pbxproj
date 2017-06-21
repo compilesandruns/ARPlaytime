@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175BC5BB1EFADD25005AFE94 /* Array+RandomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175BC5BA1EFADD25005AFE94 /* Array+RandomItem.swift */; };
+		175BC5BD1EFAFCE8005AFE94 /* Int+RandomPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175BC5BC1EFAFCE8005AFE94 /* Int+RandomPoint.swift */; };
 		9050A2381EF72542003E2A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050A2371EF72542003E2A7D /* AppDelegate.swift */; };
 		9050A23A1EF72542003E2A7D /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9050A2391EF72542003E2A7D /* Scene.sks */; };
 		9050A23C1EF72542003E2A7D /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050A23B1EF72542003E2A7D /* Scene.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175BC5BA1EFADD25005AFE94 /* Array+RandomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RandomItem.swift"; sourceTree = "<group>"; };
+		175BC5BC1EFAFCE8005AFE94 /* Int+RandomPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+RandomPoint.swift"; sourceTree = "<group>"; };
 		9050A2341EF72542003E2A7D /* ARKitPlaytime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitPlaytime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9050A2371EF72542003E2A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9050A2391EF72542003E2A7D /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				9050A2421EF72542003E2A7D /* Assets.xcassets */,
 				9050A2441EF72542003E2A7D /* LaunchScreen.storyboard */,
 				9050A2471EF72542003E2A7D /* Info.plist */,
+				175BC5BA1EFADD25005AFE94 /* Array+RandomItem.swift */,
+				175BC5BC1EFAFCE8005AFE94 /* Int+RandomPoint.swift */,
 			);
 			path = ARKitPlaytime;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 				9050A23E1EF72542003E2A7D /* ViewController.swift in Sources */,
 				9050A23C1EF72542003E2A7D /* Scene.swift in Sources */,
 				9050A2381EF72542003E2A7D /* AppDelegate.swift in Sources */,
+				175BC5BB1EFADD25005AFE94 /* Array+RandomItem.swift in Sources */,
+				175BC5BD1EFAFCE8005AFE94 /* Int+RandomPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
