@@ -32,7 +32,6 @@ class Scene: SKScene {
                 return
             }
         }
-        
         if let touchLocation = touches.first?.location(in: sceneView) {
             //Shoots a ray into the real world that looks for feature points that we can turn into anchors
             if let hit = sceneView.hitTest(touchLocation, types: .featurePoint).first {
